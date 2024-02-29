@@ -1,5 +1,5 @@
 
-## This project is based on Flask.
+## This project is based on Flask. The flask server is deployed in the (Amazon EC2) the flask serves the HTML form, and when the user enters the data in the form the data will be stored inside Amazon RDS(Database)
 
 ## Table of Contents
 
