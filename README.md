@@ -22,13 +22,13 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/your_project.git
+   git clone https://github.com/Achanandhi-M/AWS-TwoTier-application.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your_project
+   cd AWS-TwoTier-application
    ```
 
 3. Install the required dependencies:
