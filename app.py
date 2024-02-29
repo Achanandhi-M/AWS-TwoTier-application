@@ -7,7 +7,7 @@ app=Flask(__name__,static_url_path='/static',static_folder='static')
 DB_NAME = os.environ.get('DB_NAME', 'database1')
 DB_USER = os.environ.get('DB_USER', 'postgres')
 DB_PASSWORD = os.environ.get('DB_PASSWORD', 'Achanandhi')
-DB_HOST = os.environ.get('DB_HOST', 'database1.cqio6rophgrr.ap-south-1.rds.amazonaws.com')
+DB_HOST = os.environ.get('DB_HOST', 'YOUR_RDS_ENDPOINT')
 DB_PORT = os.environ.get('DB_PORT', '5432')
 
 
