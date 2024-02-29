@@ -1,5 +1,7 @@
 
 ## This project is based on Flask. The flask server is deployed in the (Amazon EC2) the flask serves the HTML form, and when the user enters the data in the form the data will be stored inside Amazon RDS(Database)
+![Screenshot from 2024-02-29 16-24-48](https://github.com/Achanandhi-M/AWS-TwoTier-application/assets/110651321/bb7f0d57-1fa2-46bb-b3e8-79bd75df3501)
+
 
 ## Table of Contents
 
