@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achu's Project</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to my Project</h1><br>
+        <p class="subtitle">Share your thoughts😊</p>
+        <form action="/" method="post">
+            <label for="name">Your Name⚡</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="quote">Your Favorite Quote💫</label><br>
+            <textarea id="quote" name="quote" rows="4" cols="50" required></textarea><br><br>
+            <label for="advice">Any Advice for me🤔</label><br>
+            <textarea id="advice" name="advice" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Submit✨">
+        </form>
+    </div>
+</body>
+</html>

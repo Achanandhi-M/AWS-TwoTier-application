@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  front-end:
+    image: achanandhi/python-flask-app:v1
+    ports:
+     - "5000:5000"
+    restart: always
+    depends_on:
+      - postgres
+    environment:
+        DB_NAME: user_database
+        DB_USER: postgres
+        DB_PASSWORD: mysecretpassword
+        DB_HOST: postgres
+        DB_PORT: 5432
+
+  postgres:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+        POSTGRES_DB: user_database
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: mysecretpassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - project-data:/var/lib/postgresql/data
+
+volumes:
+    project-data:
